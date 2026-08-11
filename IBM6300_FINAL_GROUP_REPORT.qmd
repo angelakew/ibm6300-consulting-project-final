@@ -1,0 +1,341 @@
+---
+title: "CPP Farm Store Omnichannel Consulting Plan"
+subtitle: "IBM 6300 Final Group Report"
+author:
+  - Julie Diaz
+  - Cecilia Espinoza
+  - Danielle Meza
+  - Angela Qian
+date: today
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    embed-resources: true
+    smooth-scroll: true
+execute:
+  echo: false
+  warning: false
+  message: false
+editor: source
+---
+
+# 1. Executive Summary
+
+CPP Farm Store is a campus-operated specialty retail store at Cal Poly Pomona that sells locally grown produce, specialty food products, and handmade gift baskets. Despite offering a distinctive, locally sourced product line with strong community ties, the store currently operates almost entirely through in-person foot traffic and word of mouth, limiting its reach to customers who already know it exists. Its gift basket offering, one of the most differentiated and high-value products in its assortment, has virtually no online visibility, making it difficult for customers to discover, compare, or order in advance. This consulting project recommends that CPP Farm Store build a structured online-to-offline retail presence centered on gift basket discovery and pickup ordering. The main recommendation is to activate Google Merchant Center for product feed visibility, maintain the CPP Farm Gifts Shopify store as the digital storefront, and run a coordinated omnichannel campaign that connects Instagram and Google Search to in-store pickup. Supporting recommendations include improving product data quality for feed eligibility, launching a seasonal gift campaign anchored by the message "Locally Grown, Thoughtfully Given," and establishing a performance dashboard to track and optimize results over time. If implemented, this plan would extend the store's reach beyond on-campus foot traffic to the surrounding Pomona and Inland Empire community, give gift buyers a clear and convenient path
+
+to purchase, and position CPP Farm Store as a local alternative to generic retail gifting options while supporting the store's student learning mission.
+
+# 2. Client and Situation Analysis
+
+CPP Farm Store, formally known as the Farm Store at Kellogg Ranch, is operated by Cal Poly Pomona's College of Agriculture at 4102 S. University Drive, Pomona, CA 91768. The store functions as both a retail operation and a hands-on learning environment for agriculture students, selling fresh produce, CPP-branded specialty food items, and curated gift baskets that are grown and assembled on campus. The store is open to the campus community and general public and accepts Bronco Bucks and EBT in addition to standard payment methods. The store's primary target customers fall into two groups. The first is the Cal Poly Pomona campus community, including students, faculty, and staff, who are physically close to the store but often unaware of its full product range, particularly its gift basket line. This group is motivated by convenience, campus pride, affordability, and occasion-based gifting such as professor appreciation, end-of-semester gifts, and care packages. The second group is local community members from Pomona, Diamond Bar, Walnut, and surrounding Inland Empire cities who are already interested in locally sourced or artisan food products and want a more meaningful alternative to grocery store gift baskets. This group shops intentionally and is motivated by product story, local origin, and quality. A SWOT analysis of CPP Farm Store's current situation reveals the following: Strengths: Distinctive locally grown and campus-made product identity; student labor and Cal Poly Pomona institutional backing; strong in-person customer relationships; no direct campus competitor; gift baskets are a high-value, differentiated product. Weaknesses: No established online presence or ecommerce capability prior to this project; limited marketing budget and staff capacity; store hours and product availability are not communicated online; gift baskets have no digital visibility; product images are inconsistent across the assortment. Opportunities: Growing consumer interest in locally sourced and meaningful gifts; Google Shopping allows free product listings with no paid advertising required; Shopify enables online ordering with in-store pickup at low cost; social media allows the campus community to discover and share the store organically; seasonal gifting occasions create repeated campaign opportunities throughout the year. Threats: Low awareness remains the primary barrier to growth; competing retailers (Target, grocery chains, Etsy sellers) offer gift options that are more visible and discoverable online;
+
+seasonal product variability makes consistent product feed management challenging; the store's reliance on in-person discovery limits its ability to reach new customers outside the immediate campus area.
+
+# 3. Omnichannel Journey Analysis
+
+The group's GP1 journey map analyzed how two target customer segments, CPP Students and Local Community Members, move through a six-stage customer journey with CPP Farm Store. The map identified key touchpoints, pain points, and omnichannel gaps at each stage, and the findings shaped every subsequent recommendation in the consulting project. The six journey stages are: Awareness, Consideration, Purchase, Fulfillment and Pickup, Post-Purchase Engagement, and Loyalty and Repeat Purchase. During the Awareness stage, both segments discover the store through different channels. CPP students most commonly encounter the store by physically walking past it on campus or through word of mouth from peers. Local community members have almost no awareness path at all, since the store has no Google Business presence, social media activity, or search visibility. The primary omnichannel opportunity here is establishing a presence on Google Shopping, Google Maps, and Instagram so both segments can discover the store without requiring a physical encounter. During the Consideration stage, customers who are already aware of the store struggle to evaluate its offerings because no product information is available online. A customer who heard about the gift baskets from a colleague cannot look up what is included, what it costs, or whether it is in stock without calling or visiting in person. This friction means the store loses potential customers at the evaluation stage. The GP2 Shopify store and GP3 product feed directly address this gap by giving customers a browsable, searchable digital catalog. During the Purchase stage, the store's in-person-only model requires customers to be on campus during store hours to complete a transaction, which excludes a large portion of the target audience. The GP2 prototype introduces an online ordering flow with in-store pickup that allows customers to complete the purchase decision digitally and simply collect their order at the store. During the Fulfillment and Pickup stage, the store's physical location and campus-grown identity are actually strengths, since pickup creates a direct connection to the CPP campus experience that online-only retailers cannot replicate. The journey map identified an opportunity to turn the pickup moment into a brand-reinforcing touchpoint through in-store signage and packaging that reinforces the "locally grown, thoughtfully given" story.
+
+During the Post-Purchase Engagement stage, there is currently no mechanism for the store to follow up with customers, collect feedback, or encourage sharing. The GP4 campaign plan includes permission-based email and social media engagement to begin building a post-purchase relationship with customers. During the Loyalty and Repeat Purchase stage, the store has no retention strategy. Customers who had a positive experience have no digital connection to the store that would bring them back. Seasonal campaigns, email reminders, and a returning visitor tracking KPI in the GP6 dashboard are all designed to begin closing this gap. The journey map shaped the rest of the consulting project by making clear that the store's core problem is not product quality or price, but visibility and accessibility. Every subsequent recommendation, from the Shopify prototype to the campaign message to the analytics dashboard, is designed to solve the awareness-to-purchase gap that the journey map identified.
+
+# 4. Ecommerce and Shopify
+
+## 4.1 Purpose
+
+ The CPP Farm Gifts Shopify mini-store (cppfarmgifts.myshopify.com) was built to close the awareness-to-purchase gap identified in the GP1 journey map: customers who know about CPP Farm Store’s gift baskets have no way to browse, evaluate, or order them without visiting in person. The prototype gives the store’s most differentiated and high-value product line, its gift baskets, a digital storefront for the first time, supporting both the campus community (students, faculty, staff) and local Pomona/Inland Empire community members who are looking for a locally sourced, meaningful alternative to grocery-store gift baskets. Rather than replicating the Farm Store’s full in-person catalog, the prototype focuses on a bundled gift basket concept: packaging Farm Store items (produce, honey, jams, and other campus-branded goods) into themed, purchase-ready baskets customers can browse and order online.
+
+## 4.2 Product Categories
+
+![CPP Farm Gifts storefront collection evidence](assets/page-05-visual-01.png){#fig-shopify-collections fig-alt="CPP Farm Gifts Shopify storefront showing wine and gift-basket products in the collection grid." width=100%}
+
+ The Shopify backend organizes products into the following collections:
+
+- Seasonal Gift Baskets (3 products)
+
+- Gift Boxes (8 products)
+
+- Wine Collection (3 products)
+
+- Juices & Drinks (currently 0 products; collection created but not yet populated)
+
+- Fresh Produce (currently 0 products; collection created but not yet populated) The presence of empty Juices & Drinks and Fresh Produce collections suggests the store’s long-term roadmap includes expanding beyond gift baskets into broader Farm Store staples, though the current catalog is intentionally concentrated on the gift basket/gift box line, consistent with the project’s focus on the store’s most differentiated, highest-value product. The customer-facing collections page (e.g. /collections/all) displays products in a simple grid: image, name, and price, with wine and gift baskets mixed together in the same view. Prices are visible directly on the grid (e.g. wine ranges $9.99 to $17.99; gift baskets are priced $55 for the Anti-Pasti Gift Box, with others like Classic Farm Basket and Pasta Gift Box also shown). The Anti-Pasti Gift Box’s $55.00 storefront price matches CPP-001 in the GP3 feed exactly, confirming feed pricing is in sync with the live store for at least that item; worth spotchecking the remaining feed rows the same way before submission. Storefront collections Page 
+
+## 4.3 Homepage Strategy
+
+![CPP Farm Gifts storefront homepage](assets/page-06-visual-01.png){#fig-shopify-homepage fig-alt="CPP Farm Gifts homepage with Farm Store hero image, Shop Gift Baskets call to action, and featured products." width=100%}
+
+The homepage was designed to immediately communicate CPP Farm Store’s locally grown, campus-made identity and reinforce the broader campaign message, “Locally Grown, Thoughtfully Given.” Key elements include:
+
+- An announcement bar reading “Hand-packed by Cal Poly Pomona students • Farm fresh, always local,” reinforcing the brand story before a visitor scrolls past the header
+
+- A full-width hero image of the physical Farm Store building, paired with the headline “Fresh from Our Farm, Just for You” and a primary “Shop Gift Baskets” call-to-action button, directing traffic straight to the highest-value product line rather than a general catalog browse
+
+- A “Products” section below the fold featuring a mix of items (wine bottles and an assorted gift basket) with a “Shop All Gift Baskets” link Notably, the homepage’s featured Products section includes wine bottles, even though wine is not part of the GP3 Google Merchant Center feed (see Section 5.6), a gap worth closing so featured on-site products and the discoverable ad feed stay aligned. Storefront homepage 
+
+## 4.4 Product Page Strategy
+
+![Anti-Pasti Gift Box product page](assets/page-07-visual-01.png){#fig-product-page fig-alt="Shopify product page for the Anti-Pasti Gift Box showing product photography, price, quantity, purchase controls, description, and related products." width=100%}
+
+ Individual gift basket product pages follow a consistent template designed to close the Consideration-stage gap identified in the journey map, giving customers, for the first time, a way to evaluate a basket’s contents, price, and availability without calling or visiting the store. Using the Anti-Pasti Gift Box ($55.00) as an example, each page includes:
+
+- A large, styled lifestyle photo showing the basket’s actual contents (artisan cheeses, dry salami, crackers) staged with props (fruit, a branded box) rather than a plain product-on-white shot Product title and price displayed prominently, with a quantity selector and both “Add to cart” and “Buy with Shop” purchase options
+
+- A short descriptive paragraph: on the live product page, it reads “A savory selection for the cheese-and-charcuterie lover, featuring artisan cheeses, dry salami, and assorted crackers, packed in a CPP Farm Store branded box and hand-packed by Cal Poly Pomona students.”
+
+- A “You may also like” related-products module at the bottom of the page, surfacing other gift boxes Product detail page, Anti-pasti Gift Box 
+
+## 4.5 Navigation Structure
+
+ The storefront navigation bar is kept to six items to minimize friction for first-time visitors, most of whom are discovering the store online for the first time: Home, Shop, Gift Baskets, Nursery, About Us, Contact, with search, account, and cart icons in the top-right. Placing “Gift Baskets” as its own top-level nav item (rather than nesting it under “Shop”) reflects the project’s emphasis on gift baskets as the store’s most differentiated product, giving it equal visual weight to the general catalog. 
+
+## 4.6 Supporting Online and Offline Shopping
+
+The Shopify prototype was designed to directly address the Purchase and Fulfillment/Pickup stages of the journey map by introducing an online ordering flow paired with in-store pickup at the Kellogg Ranch location, rather than functioning as a standalone shipping-based ecommerce channel:
+
+- Online-to-offline (purchase to pickup): Customers complete the purchase decision digitally and collect their order in person, turning pickup into a brand-reinforcing touchpoint (in-store signage/packaging tied to the “Locally Grown, Thoughtfully Given” message)
+
+- Offline-to-online (discovery): In-store signage or QR codes can direct physical Farm Store visitors to the online gift basket catalog, supporting repeat and gift-occasion purchases
+
+- Fulfillment: The prototype supports both options: same-day instore pickup at the Kellogg Ranch location, and shipping, though shipping is limited to overnight delivery only. This narrower shipping window likely reflects the perishable/fresh nature of some Farm Store products, and reinforces why pickup (not shipping) is positioned as the default path in the homepage’s primary “Shop Gift Baskets” CTA and the GP3 feed’s “In-store pickup and local delivery available” field. This structure supports the GP3/GP4 goal of extending reach beyond on-campus foot traffic to the surrounding community while keeping the campus pickup experience central to the brand.
+
+# 5. Product Feed and Retail Media Setup
+
+## 5.1 Overview
+
+ To close the Awareness-stage gap identified in the journey map, the store currently has no Google Shopping, Google Maps, or organic search presence, the team built a 10-product feed formatted for Google Merchant Center as part of GP3. The feed covers two brand groupings: CPP Farm Gifts (gift baskets/boxes) and CPP Farm Store (individual pantry items), and structures this data so it can be surfaced in Google Shopping’s free listings, giving local community members outside the campus a way to discover the store without a prior in-person encounter. 
+
+## 5.2 Selected Products
+
+ The feed prioritized gift baskets over the Farm Store’s broader produce/specialty food catalog, since baskets are the most differentiated, highest-value, and most gift-occasion-relevant product line. The final 10-product feed (CPP-001 through CPP-010) includes:
+
+Gift Baskets (brand: CPP Farm Gifts)
+
+- CPP-001: Savory Assortment gift box ($55), corporate/holiday gifting
+
+- CPP-002: Classic Assortment, best-selling combo of preserves, honey, and snacks ($35), entry-level gift
+
+- CPP-003: Pasta-night themed gift box ($45), Italian themed gift searches
+
+- CPP-004: Honey/sweets themed gift box ($40), sweet/honey-themed gift searches
+
+- CPP-005: Everyday fruit & snack box ($30), budget-conscious/student buyers
+
+- CPP-006: Rotating seasonal gift basket ($50), holiday search volume Individual Pantry Items (brand: CPP Farm Store)
+
+- CPP-007: Strawberry preserves ($10), low-price entry point, basket add-on
+
+- CPP-008: Apple butter ($10), locally made, local search
+
+- CPP-009: Raw almonds, 8 oz ($8), everyday/health-conscious snack search
+
+- CPP-010: Raw local honey, Pomona-sourced ($12), strong local/natural-product search terms Selection criteria included gift/occasion relevance (holiday, entrylevel, and everyday gifting tiers are all represented), seasonal vs. always-on balance (CPP-006 rotates by holiday while CPP-002/005 stay evergreen), and search-term alignment: several descriptions were written to target likely local or product-specific search queries (e.g. “Italian-themed gift queries,” “local and natural-product search terms”). 
+
+## 5.3 Feed Structure
+
+ The Google Merchant Center feed uses two linked tables. The primary product table includes: Attribute Description Product ID Unique identifier Title Product title Description Full product description Price USD price Availability In stock / out of stock Google Product Category Full Google taxonomy path A second table adds Merchant Center-required and campaign-support fields:
+
+Attribute Description Product Type Internal category path Brand CPP Farm gifts or CPP Farm store Condition New Image link Product image URL Landing Page Product Page URL Shipping / Pickup In-store pickup and local delivery availability Promotion Message Internal notes on positioning/search intent Custom Level 0 Internal grouping tag 
+
+## 5.4 Title and Description Recommendations
+
+ Following Google Shopping ad best practices (front-loading key attributes, avoiding promotional language, keeping titles under ~150 characters), the team recommended:
+
+- Titles: The team’s intended formula, kept customer-friendly, is Brand + Product Type + Key Attribute + Size or Quantity (e.g. “CPP Farm Gifts Savory Assortment Gift Box”).
+
+- Descriptions: Descriptions in the current feed lead with what the product is and who it’s for, then tie to a search-intent rationale (e.g. CPP-010’s honey description leads with “raw, natural local honey harvested near Pomona, CA” before noting it “performs well on local and natural-product search terms”). This pattern, product description first, search-intent framing second, should be kept consistent across all 10 listings. 
+
+## 5.5 Image Requirements
+
+ Google Merchant Center requires clean, policy-compliant product imagery. This is a notable gap area for CPP Farm Store, since inconsistent product photography was flagged as a weakness in the SWOT analysis:
+
+- Minimum resolution requirements (≥100x100px for non-apparel, ≥800x800px recommended)
+
+- White or neutral background, no watermarks, logos, or promotional text overlays 
+
+## 5.6 Feed Quality Concerns
+
+ The team identified the following quality issues that could affect feed approval or ad performance, several of which trace back to weaknesses identified in the Client and Situation Analysis:
+
+- Title field doesn’t yet follow the intended formula. The Title column currently shows only the brand name (e.g. “CPP Farm Gifts”) for every row instead of the full Brand + Product
+
+Type + Key Attribute + Size/Quantity format described in 5.4. As written, titles are not descriptive or differentiated enough for Merchant Center approval or useful Shopping ad display, and this is the most important fix before submission.
+
+- Inconsistent product imagery across the assortment (SWOT weakness), which risks Merchant Center image policy rejections
+
+- Seasonal product variability, which the journey map and SWOT both flagged as a challenge for keeping the feed current. CPP-006 (seasonal rotating basket) explicitly requires imagery/copy updates each holiday per its own promotion notes
+
+- Feed coverage is narrower than the full storefront. The GP3 feed includes only 10 products (6 gift baskets + 4 pantry items). The live Shopify store also lists a Wine Collection and two additional collections (Fresh Produce, Juices & Drinks, both currently empty) that aren’t represented in the feed at all; worth confirming whether wine should be added, since it’s Merchant Center-eligible and already listed on-site 
+
+## 5.7 Recommended Products for Promotion
+
+ Based on the feed audit, the following products/baskets are recommended for prioritized promotion via Google Shopping, aligned with the gift-occasion motivations identified for both the campus and local community segments:
+
+- CPP-006 (Seasonal Rotating Basket, $50): built specifically for holiday search volume; requires the imagery/copy refresh noted in 5.6 but has the highest seasonal upside
+
+- CPP-002 (Classic Assortment, $35): already the catalog’s bestseller and entry-level price point, making it a strong always-on candidate for driving first-time online conversions
+
+- CPP-010 (Local Honey, $12): lowest price point with the strongest local/organic search-term alignment (“Pomona, CA,” “local and natural-product search terms”), a good low-cost entry item to pull in local searchers who then discover the full basket line
+
+- CPP-005 (Everyday Fruit & Snack Box, $30): targets the budget-conscious/student segment directly called out in the Client and Situation Analysis, supporting the campus-community side of the audience
+
+# 6. Campaign Plan
+
+## 6.1 Business Problem
+
+CPP Farm Store has strong in-person foot traffic from the Cal Poly Pomona campus community but lacks an online presence that allows customers to discover products, browse gift basket options, or place orders outside of store hours. Most customers only learn about the store through word of mouth or by physically passing by, which limits the store's reach to the surrounding Pomona community and to students who may not know what products are available on any given day. The gift basket offering in particular — which is one of the store's most valuable and differentiated products — has no online visibility, making it difficult for gift buyers to find, browse, or order in advance. 
+
+## 6.2 Campaign Objective
+
+ Increase awareness of CPP Farm Store's gift basket offerings among Cal Poly Pomona students, faculty, and the surrounding Pomona community by driving traffic to the CPP Farm Gifts Shopify store, with the goal of generating online gift basket inquiries and pickup orders within one semester. 
+
+## 6.3 Target Audience
+
+ The campaign targets two equally important audiences. The first is Cal Poly Pomona students, faculty, and staff. This group is physically close to the store but may not be aware of the full product range, especially the gift basket offerings. They are motivated by convenience, affordability, and supporting campus programs. Their shopping behavior tends to be impulse-driven and occasion-based — buying a gift for a professor, a friend's birthday, or a care package. Their main pain point is not knowing what the store carries or when it is open. Key touchpoints for this group include Instagram, TikTok, campus signage, and Google Search. The second audience is the surrounding Pomona and Inland Empire community, including local families and gift buyers who may already shop at farmers markets or local stores and are looking for a meaningful, locally sourced gift alternative. This group is motivated by the story behind the product, local and sustainable sourcing, and unique gift options they cannot find at a grocery store. Their pain point is low awareness that CPP Farm Store exists and offers online browsing and pickup. Key touchpoints for this group include Google Shopping, Google Maps, and Instagram. Both audiences matter because they represent complementary paths to growth: the campus audience drives frequent, lower-cost transactions while the community audience drives higher-value gift basket purchases, especially around holidays and special occasions. 
+
+## 6.4 Core Campaign Message
+
+ Core message: "Locally Grown, Thoughtfully Given." Supporting line: "CPP Farm Store gift baskets, grown on campus and ready for pickup."
+
+This message connects directly to the business problem and speaks to both audiences simultaneously. The campus audience receives the locally grown, campus-pride angle — grown by their own university — while the community audience receives the thoughtfully given, gift-story angle. The word "given" rather than "grown" alone reinforces that the campaign objective centers specifically on gift basket awareness and orders rather than general store awareness. 
+
+## 6.5 Channel Strategy
+
+ Channel Why It Fits Instagram Top touchpoint for both audiences; visual format suits gift basket showcases and occasion tie-ins TikTok Reaches students with low-cost, casual content around gifting occasions Shopify (owned site) The conversion destination — fixes the missing online discovery and ordering gap Google Shopping / Captures the community audience already searching with Merchant Center gift-buying intent Google Maps / Google Builds awareness that the store exists and offers online Business Profile ordering Campus signage Low-cost way to point existing foot traffic to the online store 
+
+## 6.6 Omnichannel Channel Flow
+
+ The five channels selected work together as a connected system — each one serves a specific role in moving both target audiences from first discovery through to a completed pickup order and repeat purchase. Stage 1 — Awareness For CPP students, faculty, and staff, campus signage serves as the first touchpoint — posters near the student union, dining halls, and high-traffic campus corridors featuring the core message with a QR code linking directly to the CPP Farm Gifts Shopify store. Instagram and TikTok run simultaneously, reaching students who may not notice physical signage but are active on social media throughout the day. For the surrounding community, Google Business Profile and Google Maps do the awareness work — ensuring that when someone searches "farm store near Pomona" or "local gift baskets Pomona CA," CPP Farm Store appears with accurate hours, photos, and an online ordering
+
+link. Google Shopping captures community members who are actively searching with gift-buying intent, placing CPP Farm Store products directly in their search results. Stage 2 — Consideration Once a customer has seen the brand, both paths lead to the same destination: the Shopify storefront. This is where the customer browses the gift basket collections, reads product descriptions, views pricing, and decides whether to place an order or visit in person. For the student audience, the Instagram bio link and TikTok content link go directly to the Gift Baskets collection page. For the community audience, the Google Shopping listing links directly to the individual product page for the specific gift basket they clicked on. Stage 3 — Purchase and Fulfillment The purchase is completed on the Shopify storefront through an online order placed for in-store pickup at 4102 S. University Drive, Pomona. The pickup model eliminates shipping costs and complexity while still allowing customers to browse and order online at any time — including outside store hours. Stage 4 — Post-Purchase and Loyalty After a completed pickup order, email becomes the primary retention channel. Customers are added to the Farm Store email list and receive seasonal product announcements, new gift basket arrivals, and occasion-based reminders. Instagram also serves a retention role — customers who follow the account after their first purchase stay connected to the brand with each new post. Omnichannel Flow Summary: Stage CPP Students and Staff Local Community Members Awareness Campus signage, Instagram, Google Maps, Google Shopping TikTok Consideration Shopify via social bio link Shopify via Shopping ad link Purchase Shopify → in-store pickup Shopify → in-store pickup Post-purchase Email, Instagram Email, Instagram 
+
+## 6.7 Campaign Tactics
+
+ Tactic 1 — "Gift of the Month" Social Media Content Series (Instagram and TikTok) A recurring monthly content series featuring one gift basket or bundle as the featured product of the month. Each post includes a short story about what makes that basket special — the campus-grown ingredients, the occasion it is perfect for, and how to order it online for pickup. On Instagram, this takes the form of a carousel post showing the basket contents and a final
+
+slide with the pickup call to action and QR code. On TikTok, this is a 20–30 second video showing the basket being assembled or unboxed with a voiceover tying it to a specific occasion. Tactic 2 — QR Code Campus Signage Campaign A set of 8–10 posters placed in high-traffic campus locations — the student union, the library entrance, dining hall corridors, the College of Agriculture building, and the campus shuttle stops. Each poster features the core campaign message, a photo of the gift basket lineup, and a QR code that links directly to the CPP Farm Gifts Shopify gift basket collection. The QR code uses a UTM parameter so the group can measure how much Shopify traffic comes from physical campus signage. Tactic 3 — Seasonal Gift Bundle Promotion ("Campus Harvest Box") A limited-time seasonal bundle created specifically for the campaign and available for a defined promotional window — for example, the last three weeks of the fall semester leading into finals and the holiday break. The bundle includes a curated selection of the Farm Store's best seasonal products at a slight discount compared to buying them individually, with a clear order-by date to create urgency. The promotion is announced simultaneously across Instagram, TikTok, campus signage, and email. Tactic 4 — Google Shopping Product Listing Optimization The five highest-priority gift basket products are submitted to Google Merchant Center with optimized titles, descriptions, and images following the format developed in the GP3 product feed. Free product listings through Google Merchant Center are available to any verified retailer, making this a zero-cost tactic with meaningful reach potential for the community audience segment. Tactic 5 — Campus Ambassador or Student Organization Partnership One or two student ambassadors — ideally from the College of Agriculture or a campus sustainability organization — are recruited to share the campaign on their personal social media accounts and promote the store within their student organization networks. Ambassadors receive a gift basket in exchange for three to five posts over the campaign period. 
+
+## 6.8 Budget Recommendation
+
+ Channel Tactic Type Recommended Rationale Allocation Campus Organic / print $150 Printing and posting 8–10 posters signage across campus Instagram Organic $0 Student-created content, no paid content promotion required to start
+
+TikTok content Organic $0 Organic reach is strong for campus-oriented content Google Organic (free $0 Free product listings through Merchant Shopping listings) Center Google Paid (optional) $200 Optional paid boost for the seasonal Shopping Ads campaign window Email Organic $0 Shopify Email or Mailchimp free tier marketing Campus In-kind $50 Gift basket value per ambassador ambassador Total $400 The campaign is intentionally designed to be low-cost and organic-first, which is appropriate for a university farm store with a limited marketing budget. The $200 optional Google Shopping Ads allocation should only be activated once the product feed is verified and approved in Merchant Center, ensuring ad spend is not wasted on a feed with quality issues. 
+
+## 6.9 KPIs
+
+ KPI Business Question It Answers Total users (Shopify / GA4) How many people are we reaching? Sessions by traffic source Which channel is sending the most visitors? Gift basket product page Which baskets are getting the most interest? views Add-to-cart events Are customers engaging beyond browsing? Checkout start rate Are customers moving toward purchasing? Simulated conversion rate What percentage of visitors are completing an order? Average session duration Are visitors spending enough time to understand the products? Returning visitor rate Are we building repeat interest over time? Google Shopping CTR Are our product listings compelling enough to click? Store pickup interest Are customers selecting the pickup option?
+
+## 6.10 Optimization Plan
+
+ After launch, the campaign should be evaluated and improved on the following schedule: Weekly: Review GA4 Realtime and traffic source reports. Monitor which channel is driving the most sessions and whether the gift basket collection page is the most-visited destination. If one channel is significantly underperforming, shift content effort toward the stronger channel. Monthly: Review the conversion funnel in the Looker Studio dashboard. Identify the stage with the highest drop-off rate and investigate the cause. If add-to-cart to checkout start shows high drop-off, review the checkout flow for friction. If product page views are low, review product titles and images for clarity. Seasonally: Update the Campus Harvest Box bundle and seasonal content to match the current gifting occasion. Refresh the Google Shopping product listings for the seasonal rotating basket with updated images and copy before each major holiday period. Ongoing: Test two versions of the Instagram carousel format — one leading with the basket image, one leading with the origin story — and compare engagement rates after two weeks to identify the stronger creative approach.
+
+# 7. Creative Brief and AI Assets
+
+## 7.1 Creative Objective
+
+ The creative objective for this campaign is to introduce CPP Farm Store's gift basket offerings to audiences who are either unaware the store exists or unaware that gift baskets can be browsed and ordered online for pickup. The creative assets should stop the audience mid-scroll or mid-campus-walk, communicate the store's local and campus-grown identity, and give them a clear next step — whether that is visiting the Shopify store, clicking a Google Shopping listing, or stopping by the store for pickup. The creative should make gift buying feel easy, thoughtful, and locally meaningful rather than generic. 
+
+## 7.2 Key Message
+
+ "Campus-made gifts, ready when you are." This works as the core line because it does three things at once: it signals campus origin, reinforces the student-connected identity, and communicates convenience. It is short enough to work across every channel — an Instagram caption, a Google Shopping headline, or campus signage — and directly answers the shared pain point that customers do not know the baskets exist or can be ordered online. 
+
+## 7.3 Tone and Style
+
+Friendly, not corporate. The primary audience disengages from anything that reads like a big-brand ad. Copy and visuals should feel like they were made by someone at CPP, not a marketing department — natural lighting and real product shots rather than stock photography. Local and story-driven. The secondary audience shops on story and quality over price. Tone should highlight where things come from — CPP farm, student-grown — rather than pushing discounts or urgency. Seasonal and gift-occasion framing. Since the creative objective centers on promoting "who do I know that would love this," tone should lean into occasion-based warmth — holidays, birthdays, thank-yous, or just because — rather than generic retail promotion. Simple and approachable visually. An earthy, natural color palette, clean product photography of the baskets themselves, and minimal text overlay so the content does not read as an ad in a scroll feed. 
+
+## 7.4 Sample Creative Assets
+
+::: {.panel-tabset}
+### Instagram Feed Concept
+
+![Instagram feed-post mockup](assets/page-18-visual-01.png){#fig-instagram-feed fig-alt="Instagram feed-post concept promoting a campus-grown CPP Farm Store gift basket." width=70%}
+
+### Product Photography Concept
+
+![Gift basket lifestyle photograph](assets/page-18-visual-02.png){#fig-gift-basket-photo-one fig-alt="Lifestyle photograph showing a customer holding a locally themed gift basket outdoors." width=55%}
+
+### Instagram Story
+
+![Instagram Story mockup](assets/page-20-visual-01.png){#fig-instagram-story fig-alt="Instagram Story concept with the message Campus-made gifts, ready when you are and a pickup call to action." width=70%}
+
+### Alternate Gift Basket Photograph
+
+![Alternative gift basket photograph](assets/page-20-visual-02.png){#fig-gift-basket-photo-two fig-alt="Neutral-background photograph of a locally themed gift basket with greenery and packaged food products." width=55%}
+
+### Google Shopping Concept
+
+![Google Shopping listing mockup](assets/page-21-visual-01.png){#fig-google-shopping fig-alt="Google Shopping search-results and product-listing mockup for CPP Farm Store gift baskets near Pomona." width=80%}
+
+### Seasonal Product Photograph
+
+![Seasonal gift basket photograph](assets/page-21-visual-02.png){#fig-seasonal-basket-photo fig-alt="Seasonal food gift basket featuring pasta, oil, preserves, vegetables, and flowers." width=55%}
+:::
+
+ Three creative assets were developed across two channels to bring the campaign to life. All three use the core message "Campus-made gifts, ready when you are" and are designed to serve both target audiences simultaneously. Asset 1 — Instagram Feed Post
+
+Channel: Instagram Format: Single image post with caption Primary audience: CPP students, faculty, and staff Secondary audience: Local Pomona and Inland Empire community members Visual concept: A flat lay photo of the Classic Farm Basket on a warm wood surface with natural side lighting. The basket contents are fanned out slightly so individual items are visible — a jar of strawberry preserves, local honey, raw almonds, and seasonal produce. No text overlay on the image. Clean, warm, and approachable. Caption: 🌾 Give something that actually means something. Our gift baskets are packed with produce grown right here at Cal Poly Pomona's Kellogg Ranch — honey from our bees, preserves from our fruit, and seasonal favorites from the farm. Perfect for birthdays, thank-yous, end-of-semester gifts, or just because. Browse and order online for pickup at the CPP Farm Store 🧡 Link in bio → CPP Farm Gifts #CPPFarmStore #LocallyGrown #CalPolyPomona #GiftBasket #SupportLocal #KelloggRanch #CampusMade #Pomona AI prompt used: "Write an Instagram caption for a farm store at Cal Poly Pomona promoting their gift baskets. Tone should be warm, local, and casual — not corporate. The baskets include campus-grown produce, honey, and preserves. The audience is CPP students and local Pomona community members. Include a call to action to browse online and order for pickup. Keep it under 150 words." Edits made to AI output: The AI draft used the phrase "artisanal farm-fresh gifts" which felt too formal for the student audience. This was replaced with "produce grown right here at Cal Poly Pomona's Kellogg Ranch" to be more specific and grounded. The hashtag list was also trimmed from 15 to 8 to avoid looking spammy in the feed. Asset 2 — Instagram Story
+
+Channel: Instagram Stories Format: Vertical story graphic (1080 x 1920) Primary audience: CPP students, faculty, and staff Secondary audience: Local Pomona and Inland Empire community members Visual concept: A warm terracotta background with a centered photo of the Sweet Gift Box tied with a ribbon. White text overlaid at the top and bottom of the image only — no text on top of the product photo itself. A link sticker at the bottom linking to the Shopify gift basket collection. Top text (large, bold): Campus-made gifts, ready when you are. Bottom text (smaller): Browse gift baskets online → pick up at CPP Farm Store Open daily 10am – 6pm · 4102 S. University Dr., Pomona AI prompt used: "Write the text for an Instagram Story graphic promoting gift baskets at CPP Farm Store. Keep it to two short lines of text — one headline and one supporting line with store hours and location. Tone should be warm and approachable. The store is at Cal Poly Pomona in Pomona, CA and is open daily 10am to 6pm." Edits made to AI output: The AI suggested "Fresh from the farm, straight to your door" as the headline — this was changed to the campaign's core message line to maintain consistency across all assets. "Straight to your door" also implied shipping, which the Farm Store does not offer, so the line was replaced with the in-store pickup clarification. Asset 3 — Google Shopping Product Listing
+
+Channel: Google Shopping / Google Merchant Center Format: Product title and description Primary audience: Local Pomona and Inland Empire community members Secondary audience: CPP students searching with gift-buying intent Product: Classic Farm Basket — $35 Optimized product title: CPP Farm Store Classic Farm Basket — Local Gift Basket, Campus-Grown, Pomona CA, $35 Optimized product description: The CPP Farm Store Classic Farm Basket is a hand-assembled gift filled with produce grown at Cal Poly Pomona's Kellogg Ranch and locally made pantry staples including seasonal fruit, honey, and small-batch preserves. A meaningful, one-of-a-kind gift for birthdays, holidays, housewarmings, or any occasion that calls for something local and thoughtful. Available for online ordering and same-day in-store pickup at 4102 S. University Drive, Pomona, CA. Open daily 10am to 6pm. Bronco Bucks and EBT accepted. AI prompt used: "Write a Google Shopping product description for a gift basket sold at CPP Farm Store at Cal Poly Pomona. The basket contains campus-grown produce, local honey, and small-batch preserves. Price is $35. It is available for in-store pickup only at 4102 S. University Drive, Pomona CA. The audience is local community members and families in Pomona and the Inland Empire looking for a meaningful local gift. Write a product title and a description of 100 to 150 words. Follow Google Merchant Center best practices." Edits made to AI output: The AI draft used "farm-to-table gift basket experience" which was removed — Google Shopping descriptions should be factual and product-focused, not
+
+experiential. The phrase "order online for same-day in-store pickup" was added because the original AI output did not mention the pickup model. The Bronco Bucks and EBT payment note was also added manually since the AI had no knowledge of the store's specific payment options. 
+
+## 7.5 Asset Summary
+
+ Asset Channel Format Primary Core Message Audience Instagram Instagram Single CPP students Campus-made gifts, ready feed post image + + community when you are caption Instagram Instagram Vertical CPP students Campus-made gifts, ready story story + community when you are graphic Google Google Product Local Local, campus-grown gift Shopping Shopping title + community basket for pickup in Pomona listing description members 
+
+## 7.6 Brand Fit Explanation
+
+ All three creative assets were developed to reflect CPP Farm Store's core brand identity — locally grown, campus-connected, and genuinely community-oriented — without mimicking a corporate retail aesthetic. The warm, earthy visual direction signals authenticity and approachability, which is what both target audiences respond to. The occasion-based copy framing — birthdays, thank-yous, end-of-semester — makes the campaign feel relevant and timely rather than promotional. And the consistent use of "campus-made" and "Kellogg Ranch" across all three assets reinforces the store's most powerful differentiator: the fact that these products come from a real place with a real educational mission that no competitor can replicate.
+
+# 8. Analytics Dashboard
+
+The GP6 Looker Studio dashboard translates the campaign plan into a measurement framework for CPP Farm Store management, the student consulting team, and College of Agriculture leadership. Its objectives are to measure awareness, product discovery, conversion behavior, channel performance, and returning interest. The dashboard is organized into an Executive Summary, Traffic Acquisition, Product Performance, Campaign Performance, Customer Behavior Funnel, and Recommendations.
+
+The proposed data architecture combines GA4 website behavior, Shopify product and checkout activity, Google Merchant Center or Google Shopping data, and verified pickup-order records. The current dashboard uses simulated demonstration data because live transactions and validated analytics sources were not available. Its values show how performance could be monitored but must not be interpreted as real business results.
+
+![GP6 campaign performance dashboard using simulated demonstration data](assets/page-24-visual-01.png){#fig-analytics-dashboard fig-alt="Looker Studio dashboard with simulated scorecards, traffic sources, weekly trends, product views, Shopping click-through rates, channel sessions, and customer behavior funnel." width=100%}
+
+Key KPIs include total users, sessions by traffic source, product-page views, add-to-cart events, checkout-start rate, simulated conversion rate, average session duration, returning-visitor rate, Google Shopping click-through rate, and store-pickup interest. Together, these measures connect the campaign objective to the customer journey rather than relying on surface-level impressions or follower counts.
+
+The simulated executive scorecards show 1,847 total users, a 3.2% conversion rate, 59 pickup orders, and a 28% returning-visitor rate. The Classic Farm Basket is the modeled product leader with a 4.2% Google Shopping click-through rate and 342 product-page views. Google Shopping overtakes Instagram during week four of the simulated reporting period.
+
+The funnel is the most useful diagnostic view. The largest modeled decline is the 45% drop from add to cart to checkout start. This suggests that CPP Farm Store should review pickup instructions, unexpected costs, account requirements, product availability, and checkout calls to action. Local Honey and Strawberry Preserves receive relatively low modeled page views and may perform better as gift-basket cross-sells.
+
+These values are examples rather than verified business outcomes. Once live data are connected, CPP Farm Store should review the dashboard monthly and use the largest verified drop-off to select the next improvement test.
+
+[Open the Looker Studio dashboard](https://datastudio.google.com/u/0/reporting/8964b427-34eb-4d96-b75e-a8909dd89e4a/page/CFL5F)
+
+# 9. Final Recommendations
+
+| Priority | What CPP Farm Store should do | Why it matters | Resources needed | How success should be measured |
+|---|---|---|---|---|
+| **1. Establish the digital foundation** | Treat Shopify as the central product destination and activate the verified ten-product Google Merchant Center feed. Correct titles, images, prices, availability, URLs, and pickup details before launch. | Accurate, searchable product information closes the awareness and consideration gaps identified in GP1 and prevents customer confusion or Merchant Center disapprovals. | A staff owner for catalog maintenance; access to Shopify and Merchant Center; approved product data; and approximately two to four hours per week during launch. | Percentage of products approved, number of unresolved feed errors, qualified product-page visits, and consistency checks across the feed, Shopify, and the physical store. |
+| **2. Make pickup operationally reliable** | Publish one clear pickup promise across Shopify, listings, checkout, confirmation messages, and store signage. Confirm preparation time, location, hours, substitutions, and employee responsibilities. | The project depends on an online-to-offline journey. Promotion will create frustration if the physical store cannot consistently fulfill the promise made online. | A documented pickup procedure, employee training, order notifications, designated staging space, and a named shift owner. | Pickup completion rate, preparation time, order exceptions, customer questions, cancellations, and post-pickup satisfaction. |
+| **3. Launch an organic-first campaign pilot** | Run “Locally Grown, Thoughtfully Given” for one seasonal window using Instagram, campus signage with UTM-coded QR links, free Google Shopping listings, email, and a limited ambassador partnership. Use paid Shopping only after the feed and tracking are validated. | A controlled pilot tests demand without overcommitting the Farm Store’s limited budget or inventory capacity. | The proposed $400 pilot budget, subject to approval; campaign calendar; approved creative assets; printing; student content support; and inventory confirmation. | Sessions by tagged source, Shopping CTR, gift-basket page views, add-to-cart rate, checkout starts, verified pickup orders, and cost per verified order if paid media is used. |
+| **4. Standardize photography and creative governance** | Create consistent product photographs and require factual and brand approval before publishing AI-assisted copy or visuals. Maintain a reusable asset library for each product and season. | Strong photography improves product evaluation and feed eligibility, while human review protects CPP’s identity and prevents inaccurate claims about contents, availability, or fulfillment. | Photography guidelines, a simple photo setup, approved brand standards, usage permissions, and a content approval checklist. | Merchant Center image approval, engagement with updated listings, fewer content corrections, and zero misleading or unapproved public assets. |
+| **5. Connect verified data and optimize monthly** | Replace simulated dashboard inputs with validated GA4, Shopify, Merchant Center, campaign-cost, and pickup-order data. Review the funnel monthly and document one or two changes per review cycle. | The GP6 dashboard becomes useful only when its sources are reliable. A recurring test-and-learn process turns campaign activity into operational learning. | GA4 configuration, consistent event naming, Looker Studio access, Shopify/order exports, privacy review, a monthly meeting owner, and a basic testing log. | Data completeness, event-validation rate, funnel progression, returning-customer behavior, verified revenue, cost per conversion, and documented improvement tests. |
+
+These priorities should be implemented in sequence. Product data, landing pages, pickup operations, and tracking must be reliable before CPP Farm Store increases paid promotion.
+
+# 10. Conclusion
+
+This consulting plan gives CPP Farm Store a practical path from an almost entirely in-person retail model to a connected online-to-offline experience. The Shopify prototype provides a place to browse products, the Merchant Center feed makes those products discoverable, the campaign creates coordinated demand, the creative assets translate the strategy into customer-facing messages, and the Looker Studio dashboard establishes a process for learning from results.
+
+The plan does not replace the physical Farm Store. Instead, it makes the store easier to find, understand, and visit. If CPP Farm Store maintains accurate product information, communicates pickup clearly, preserves its authentic campus-grown identity, and bases future decisions on verified data, it can reach new customers while strengthening its educational and community mission.
+
+# Appendix and Project Links
+
+- [Shopify prototype](https://bzgshk-14.myshopify.com/)
+- [GitHub repository](https://github.com/angelakew/shopify-store-prototype)
+- [GitHub Pages project site](https://angelakew.github.io/shopify-store-prototype/)
+- [CPP Farm Store website](https://www.cpp.edu/farmstore/index.shtml)
+- [Looker Studio dashboard](https://datastudio.google.com/u/0/reporting/8964b427-34eb-4d96-b75e-a8909dd89e4a/page/CFL5F)
+
+::: {.callout-warning}
+## Dashboard Data Limitation
+
+The GP6 dashboard uses simulated Summer 2026 demonstration data. Its values illustrate the proposed measurement process and must not be presented as verified CPP Farm Store results.
+:::
